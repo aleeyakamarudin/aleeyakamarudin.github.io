@@ -94,6 +94,11 @@
     margin: 0 auto 1.5rem;
     font-size: 2.8rem;
     box-shadow: 0 0 0 8px rgba(245,200,66,0.15);
+    overflow: hidden;
+  }
+  .hero-avatar img {
+    width: 100%; height: 100%;
+    object-fit: cover;
   }
   .hero-name {
     font-family: 'Space Grotesk', sans-serif;
@@ -293,7 +298,7 @@
 
 <!-- NAV -->
 <nav>
-  <span class="nav-brand">🌾 Aleeya</span>
+  <span class="nav-brand" style="display:flex;align-items:center;gap:0.5rem;"><img src="https://aleeyakamarudin.github.io/HeroMeal.jpg" alt="Aleeya" style="width:32px;height:32px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);"/> Aleeya</span>
   <ul class="nav-links" id="navLinks">
     <li><a href="#home">Home</a></li>
     <li><a href="#labs">Labs</a></li>
@@ -310,13 +315,13 @@
 <!-- HOME -->
 <div id="home">
   <div class="sdg-badge">🌿 SDG 2: Zero Hunger</div>
-  <div class="hero-avatar">🌾</div>
+  <div class="hero-avatar"><img src="https://aleeyakamarudin.github.io/HeroMeal.jpg" alt="Nur Aleeya profile photo"/></div>
   <h1 class="hero-name">Nur Aleeya Binti Kamarudin</h1>
   <p class="hero-meta">A209786 &nbsp;·&nbsp; 2IT1 &nbsp;·&nbsp; Mobile Programming &nbsp;·&nbsp; Supervised by Dr. Rimaniza</p>
   <p class="hero-intro">
     I am a second-year Information Technology student passionate about building meaningful mobile applications. Through this course, I explored Android development using Kotlin and Jetpack Compose, creating apps that solve real-world problems. My journey — from building simple UIs to integrating databases and APIs — has shaped me into a more confident and creative developer.
   </p>
-  <span class="sdg-pill">🎯 SDG 2: Zero Hunger — Reducing daily food waste in Malaysia while promoting cost savings.</span>
+  <span class="sdg-pill">🎯 SDG 2: Zero Hunger — Reducing daily food waste in Malaysia while berjimat</span>
 </div>
 
 <hr class="section-divider"/>
